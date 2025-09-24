@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 5vw;
+}
+
+/* wallpaper */
+
+#birds {
+    width: 300px;
+    position: absolute;
+    top: -50px;
+    left: 400px;
+    z-index: 1;
+}
+
+#img1 {
+    width: 100%;
+    height: 25vw;
+    z-index: 0;
+}
+
+#img2 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+#green {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    position: absolute;
+    top: 285px;
+    z-index: 0;
+}
+
+#img3 {
+    width: 100%;
+    height: 10vw;
+    position: absolute;
+    top: 300px;
+    z-index: 0;
+}
+
+#img4 {
+    /* street light */
+    width: 150px;
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    z-index: 1;
+}
+
+#img5 {
+    width: 100%;
+    height: 10vw;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+}
+
+#black {
+    width: 100%;
+    padding: 31px;
+    background-color: rgb(36, 35, 35);
+    position: absolute;
+    bottom: 150px;
+    z-index: 0;
+}
+
+#img6 {
+    width: 200px;
+    position: absolute;
+    bottom: 120px;
+    right: 300px;
+    z-index: 1;
+}
+
+/* Animation */
+/* forward */
+
+#car1 {
+    width: 200px;
+    position: absolute;
+    bottom: 80px;
+    left: -250px;
+    z-index: 1;
+    animation: car1 7s linear 1s infinite normal forwards;
+    /* animation-name: car1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards; */
+}
+
+@keyframes car1  {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(1700px);
+    }
+}
+
+#person {
+    width: 200px;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    z-index: 1;
+    animation-name: person;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes person  {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(1400px);
+    }
+}
+
+#person2 {
+    width: 200px;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    z-index: 1;
+    animation: person2 8s linear 1s normal infinite forwards;
+}
+
+@keyframes person2  {
+    from {
+        transform: translateX(1400px);
+    }
+
+    to {
+        transform: translateX(-100px);
+    }
+}
+
+
+
+
+#taxi {
+    width: 200px;
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    z-index: 1;
+    animation: taxi 10s linear 1s infinite normal forwards;
+}
+
+@keyframes taxi  {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(1400px);
+    }
+}
+
+#bicycle {
+    width: 200px;
+    position: absolute;
+    bottom: 60px;
+    left: 0px;
+    z-index: 1;
+    animation: bicycle 6s linear 1s infinite normal forwards;
+}
+
+@keyframes bicycle  {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(1400px);
+    }
+}
+
+#lorry2 {
+    width: 200px;
+    position: absolute;
+    bottom: -50px;
+    left: 0px;
+    z-index: 1;
+    animation: lorry2 20s linear 1s infinite normal forwards;
+}
+
+@keyframes lorry2  {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(1400px);
+    }
+}
+
+
+/* Backward */
+
+#plane {
+    width: 400px;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    z-index: 1;
+    animation: plane 2s linear 1s normal infinite forwards;
+}
+
+@keyframes plane  {
+    from {
+        transform: translateX(1400px);
+    }
+
+    to {
+        transform: translateX(-100px);
+    }
+}
+
+#helicopter {
+    width: 300px;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    z-index: 1;
+    animation: helicopter 4s linear 3s normal infinite forwards;
+}
+
+@keyframes helicopter  {
+    from {
+        transform: translateX(1400px);
+    }
+
+    to {
+        transform: translateX(-100px);
+    }
+}
+
+#plane {
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    z-index: 1;
+    animation: plane 4s linear 1s normal infinite forwards;
+}
+
+@keyframes plane  {
+    from {
+        transform: translateX(1400px);
+    }
+
+    to {
+        transform: translateX(-100px);
+    }
+}
+
+#bicycle2 {
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    z-index: 0;
+    animation: bicycle2 4s linear 1s normal infinite forwards;
+
+}
+
+
+@keyframes bicycle2  {
+    from {
+        transform: translateX(1400px);
+    }
+
+    to {
+        transform: translateX(-100px);
+    }
+}    
+
+#lorry {
+    width: 200px;
+    position: absolute;
+    top: 280px;
+    left: 0px;
+    z-index: 0;
+    animation: lorry 10s linear 1s normal infinite forwards;
+
+}
+
+
+@keyframes lorry  {
+    from {
+        transform: translateX(1400px);
+    }
+
+    to {
+        transform: translateX(-100px);
+    }
+}    
